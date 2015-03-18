@@ -1,26 +1,86 @@
+/* Table Of Contents */
 
+/* 1. Text  */
+/* 2. Navbar - About Me */
+/* 3. Tables */
+/* 4. Loot Tabs */
+/* 5. Previous Weeks */
+/* 6. Parallax */
 
+/* 1. Text  */
 
 h1 {
+    margin: 5% 0 0 0;
     
 }
 
-h2 {
-    
+.mytabs h2 {
+    color: red; 
+    text-align: center;
+}
+
+#exoticgun h3 {
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+    margin-top: 3%;
+}
+
+#titanexotic h3 {
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+    margin-top: 3%;
+}
+
+#hunterexotic h3 {
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+    margin-top: 3%;
+}
+
+#warlockexotic h3 {
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+    margin-top: 3%;
+}
+
+#previousweeksheader {
+    color: white;
+    margin-top: 2%;
 }
 
 h3 {
     text-align: center;
+    color: white;
 }
 
 h4 {
     text-align: center;
+    color: white;
+}
+
+h5 {
+    
+}
+
+h6 {
+    
+}
+
+/* 2. Navbar - About Me */
+
+ul {
+    margin-left: 2%;
+    text-align: right;
 }
 
 ul li {
     display: inline;
-    padding: 10px 20px 0 0;
-    margin: 20px 0 0 0;
+    padding: 10% 5% 0 0;
+    margin: 0 0 0 0;
     color: black;
 }
 
@@ -30,19 +90,29 @@ li a {
 
 #topbar {
     background-color: lightgrey;   
-    height: 50px;
+    height: 3.5em;
     width: 100%;
 }
 
 #nav {
     float: right;
-    margin-top: 15px;
+    margin: 1em 0 0 0;
+}
+
+#socialmedia {
+    margin: .5em 0 0 0;   
+}
+
+.instagram {
+    width: 20%;
+    height: 20%;
+    margin: 0 0 0 3em; 
 }
 
 .xur {
     margin: 0% 25% 0 0%;
-    height: 500px;
-    width: 500px;
+    height: 27em;
+    width: 27em;
     float: right;
 }
 
@@ -51,35 +121,43 @@ li a {
     color: white;
 }
 
+/* 3. Tables */
+
+#previousweeks {
+    width: 80%;
+    margin: 5% 0 0 10%;
+}
 .previousweektable th {
-    min-width: 150px;
-    min-height: 100px;
-    font-size: 12px;
+    min-width: 42em;
+    min-height: 10em;
+    font-size: .7em;
     overflow: hidden;
+    text-align: center;
 }
 
 .previousweektable {
-    min-height: 100px;  
+    min-height: 10em;  
     overflow: hidden;
 }
 
 #table {
-    overflow: hidden;   
+    overflow: hidden;
 }
 .rwd-table {
-    min-width: 300px;
+    min-width: 38em;
+    margin-left: 6%;
     background-color: lightgrey;
-    margin-left: 15%;
     margin-top: 20%;
 }
   
 tr {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
   
 th {
     display: none; 
+    border: 1px solid black;
 }
   
 td {
@@ -87,6 +165,7 @@ td {
 }
 
 table {
+    margin-top: 1%;
 }
 
 caption {
@@ -104,38 +183,48 @@ a:hover img {
     margin: 0 0 10% 5%;
 }
 
+/* 4. Loot Tabs */
 
-#exotic_gun_picture {
-    margin: 0 0 10% 30%;
+.mytabs {
+    width: 760px;
+    background-color: black;
+    margin: 9% 5% 5% 25%;
+    border-radius: 5px;
+    border: 2px solid white;  
 }
 
-.exotic_gun {
+.tabs {
+    text-align: center;   
+}
+
+.tabs li {
+    list-style: none;
+    display: inline;
+}
+
+.tabs a {
+    padding: 5px 10px;
+    display: inline-block;
+    background: #2e3d4d;
+    color: red;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.tabs a.active {
+    background-color: yellow;
+    color: green;
+}
+
+
+
+.exoticicon {
+    margin: 0 0 0 45%;
        
 }
 
-.titan_exotic_picture {
-    margin: 0 0 10% 30%;
-}
-
-.titan_exotic {
-    
-}
-
-.hunter_exotic_picture {
-    margin: 0 0 10% 30%;
-}
-
-.hunter_exotic {
-    
-}
-
-.warlock_exotic_picture {
-    margin: 0 0 30% 30%;
-
-}
-
-.warlock_exotic {
-    
+.exoticdetails {
+    margin: 5% 0 5% 37%;   
 }
 
 .previousweekimg {
@@ -143,19 +232,6 @@ a:hover img {
 }
 
 /* CSS */
-
-.projectsaccordion ul {
-    list-style-type: square;
-    list-style-position: inside;
-    margin-left: 90px;
-    direction:ltr;
-}
-
-.projectsaccordion {
-    width: 100%;
-    margin: 20% 0 0 0;
-}
-
 .ul{
     width: 100%;
     margin-left: 20%;
@@ -223,38 +299,6 @@ footer, .push {
     clear: both;
 }
 
-.mytabs {
-    width: 760px;
-    background-color: #396172;
-    padding: 10px;
-    margin-left: 15%;
-    margin-top: 30px;
-    border-radius: 5px;
-    border: 2px solid white;
-}
-
-.tabs {
-    text-align: center;   
-}
-
-.tabs li {
-    list-style: none;
-    display: inline;
-}
-
-.tabs a {
-    padding: 5px 10px;
-    display: inline-block;
-    background: #2e3d4d;
-    color: #fff;
-    text-decoration: none;
-}
-
-.tabs a.active {
-    background-color: #fff;
-    color: #000;
-}
-
 .crackedscreen {
     margin: 0 15px 0 4px;
 }
@@ -267,6 +311,10 @@ footer, .push {
     margin-left: 23%;   
 }
 
+
+.instagramfeed {
+    margin: 10% 0 0 0;   
+}
 #parallaxText {
 	width: 0;
 	height: 100%;
@@ -306,18 +354,156 @@ footer, .push {
 #parallax1 > div, #parallax2 > div, #parallax3 > div {
 	position: relative;
 	height: 200%;
-	-webkit-transform: translateZ(0);-webkit-backface-visibility: hidden;-webkit-perspective: 1000;
+	-webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
 }
 
 /* Test Parallax */
 
-#test_parallax { 
+#parallaxscreen1 { 
     background: url(../img/test_bg.jpg) 50% 0 repeat fixed; 
     min-height: 1000px;
 }
  
-#test_parallax1 { 
-    background: url(../img/test_bg1.jpg) 50% 0 no-repeat; 
+#parallaxscreen2 { 
+    background: url(../img/test_bg1.jpg) 50% 0 no-repeat fixed; 
     min-height: 1000px;  
+}
+
+footer {
+    height: 200px;
+    background-color: white;
+}
+
+/* Media Querys */
+
+@media only screen and (max-width: 1824px) {
+    body {
+    }
+    
+    #topbar {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    body {
+        background-color: yellow;   
+    }
+    
+    h1{
+        
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+    h3 {
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    #topbar {
+        width: 100%; 
+        background-color: green;
+    }
+    
+    ul {
+        float: center;   
+    }
+    
+    ul li {
+    display: inline;
+    padding: 10px 20px 0 0;
+    margin: 20px 0 0 0;
+    color: black;
+    }
+
+    li a {
+    color: white;   
+    }
+    
+    #nav {
+        text-align: center;
+    }
+    
+    .aboutme {
+        margin-right: 15%;   
+    }
+    
+    .rwd-table {
+    min-width: 400px;
+    margin-left: 6%;
+    background-color: lightgrey;
+    margin-top: 20%;
+    }   
+    
+    .mytabs {
+    width: 760px;
+    background-color: black;
+    margin: 9% 5% 5% 10%;
+    border-radius: 5px;
+    border: 2px solid white;  
+    }
+
+    .tabs {
+    text-align: center;   
+    }
+
+    .tabs li {
+    list-style: none;
+    display: inline;
+    }
+
+    .tabs a {
+    padding: 5px 10px;
+    display: inline-block;
+    background: #2e3d4d;
+    color: red;
+    text-decoration: none;
+    border: 1px solid white;
+    }
+
+    .tabs a.active {
+    background-color: yellow;
+    color: green;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color: purple;
+        width: 100%
+    }
+    
+    #topbar {
+        width: 100%;
+        background-color: purple;
+    }
+    h2 {
+        text-align: center;   
+    }
+    
+    h4 {
+        width: 100%;
+    
+    }
+    
+    .xurdealer {
+        width: 80%;
+        height: 80%;
+        margin: 50% 0 0 10%;
+    }
+    
+    .rightarrow {
+        width: 20%;
+        height: 10%;
+        margin: 10% 0 0 40%;
+    }
+    
 }
 

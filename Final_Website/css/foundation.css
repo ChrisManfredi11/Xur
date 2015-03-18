@@ -55,20 +55,22 @@ section.module.parallax h2, h1 {
 }
 
 section.module.parallax-1 {
-  background-image: url("http://th01.deviantart.net/fs71/PRE/i/2014/209/d/0/destiny___tower_map_wallpaper_by_leaks4you-d7sot6f.png");
+  background-image: url("../img/test_bg1.jpg");
   margin-top:0;
 }
 
 section.module.parallax-2 {
-  background-image: url("../pics/img2.jpg");
+/*  background-image: url("../img/test_bg1.jpg");*/
   margin-top:0;
-    height: 140%;
+    height: 250%;
 }
 
 section.module.parallax-3 {
-  background-image: url("http://www.primagames.com/media/images/news/01-Tower_opt.jpeg");
+/*  background-image: url("http://www.primagames.com/media/images/news/01-Tower_opt.jpeg");*/
+    background-image: url(../img/test_bg.jpg);
   background-position: bottom;
   margin-top:0;
+    height: 120%
 }
 
 

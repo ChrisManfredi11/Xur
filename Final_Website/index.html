@@ -6,6 +6,7 @@
     <title> XurAgentOfTheNine </title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css">
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/animate.css" />
 
@@ -16,25 +17,28 @@
             
         <div class="row">
             <div id="topbar">
-              <div class="large-8 columns">
+              <div class="large-5 columns">
                 <h2> XurAgentOfTheNine</h2>
+                  </div>
+                <div id="socialmedia" class="large-2 columns">
+                    <img src="img/icons/instagram.png" class="instagram">
               </div>
-                <div id="nav" class="large-4 columns">
+              
+                <div id="nav" class="large-5 columns">
                     <ul>  
                         <li><a class="section" href="#"> About Me </a></li>
                         <li><a class="section" href="#currentloot"> Current Loot </a></li>
                         <li><a class="section" href="#previousweeks"> Previous Weeks </a></li>
-                        <li><a class="section" href="http://www.instagram.com/xuragentofthenine"> Instagram </a></li>
                     </ul>
               </div>
             </div>
-        </div>
+            </div>
     
       
 <!-- About Me -->
       
       <div class="row">
-          <div class="large-4 columns">
+          <div class="small-12 medium-12 large-5 columns">
               <h4 class="aboutme"> About Me </h4>
               <p class="aboutme"> I am a vender at the tower and I sell exotics. I sell 
                 exotics for hunters, titans, and warlocks. My loot consists
@@ -46,7 +50,7 @@
                 of exotic weapons, armor, engrams, consumables, and upgradeables.
                 you can buy all of these for strange coins and motes of light.</p>
           </div> 
-          <div class="large-8 columns">
+          <div class="large-7 columns">
             <img src="img/xurimg.png" class="xur">
           </div>
       </div>
@@ -56,7 +60,7 @@
       <div class="wrapper">      
         <section id="aboutme" class="module parallax parallax-1">
             <div class="row">
-                <div class="large-4 columns">
+                <div class="medium-6 large-6 columns">
                                 <table class="rwd-table" id="top5">
                                     <caption> Top 10 Exotic Weapons</caption>
   <tr>
@@ -102,55 +106,9 @@
   </tr>
 </table>
                 </div>
-                <div class="large-4 columns">
+                <div class="medium-6 large-6 columns">
                                 <table class="rwd-table" id="top5">
                                     <caption> Top 10 Exotic Armor</caption>
-  <tr>
-    <th> Weapon Type </th>
-    <th> Gun Name </th>
-  </tr>
-  <tr>
-    <td data-th="1"> Special </td>
-    <td data-th="1"> Ice Breaker </td>
-  
-  </tr>
-  <tr>
-    <td data-th="1"> Primary </td>
-      <td data-th="1"><a href="http://www.destiny.wikia.com/wiki/SUROS_Regime"> Suros Regime </a></td>
-  </tr>
-  <tr>
-     <td data-th="1"> Special </td>
-    <td data-th="1"> Ice Breaker </td>
-  </tr>
-<tr>
-     <td data-th="1"> Special </td>
-    <td data-th="1"> Ice Breaker </td>
-  </tr>
-                                    <tr>
-     <td data-th="1"> Special </td>
-    <td data-th="1"> Ice Breaker </td>
-  </tr>
-                                    <tr>
-     <td data-th="1"> Special </td>
-    <td data-th="1"> Ice Breaker </td>
-  </tr>
-                                    <tr>
-     <td data-th="1"> Special </td>
-    <td data-th="1"> Ice Breaker </td>
-  </tr>
-                                    <tr>
-     <td data-th="1"> Special </td>
-    <td data-th="1"> Ice Breaker </td>
-  </tr>
-                                    <tr>
-     <td data-th="1"> Special </td>
-    <td data-th="1"> Ice Breaker </td>
-  </tr>
-</table>
-                </div>
-                 <div class="large-4 columns">
-                                <table class="rwd-table" id="top5">
-                                    <caption> Top 10 Exotic Guns</caption>
   <tr>
     <th> Weapon Type </th>
     <th> Gun Name </th>
@@ -197,64 +155,82 @@
             </div>
                 </div>
         </section>
-        </div>
-
-<section id="currentloot" class="module parallax parallax-2">
-    <div class="container">
-        <div class="row">
+    
+     
+<div class="row">
+        <div class="large-12 columns">
+          <div class="mytabs">
             <h2> What Am I Selling? </h2>
-            <div class="large-3 columns">
-                <!-- Exotic Gun -->
-                <h4> Exotic Gun</h4>
-                <img class="animated bounce" src="img/guns/Snipers/No_land_beyond_icon1.jpg" id="exotic_gun_picture">
-                <img src="img/guns/Snipers/no_land_beyond.png" class="exotic_gun">
-                </div>
-                <div class="large-3 columns">
-                <!-- Titan Exotic -->
-                <img src="img/titan_gear/chest/crest_of_alpha_lupi/crest_of_alpha_lupi_picture.png" class="titan_exotic_picture">
-                <img src="img/titan_gear/chest/crest_of_alpha_lupi/crest_of_alpha_lupi.png" class="titan_exotic">
-                </div>
-                <div class="large-3 columns">
-                <!-- Hunter Exotic -->
-                <img src="img/hunter_gear/leg/radiantdancemachines/radiantdancemachinesicon.png" class="hunter_exotic_picture">
-                <img src="img/hunter_gear/leg/radiantdancemachines/radiantdancemachines.png" class="hunter_exotic">
-                </div>
-                <div class="large-3 columns">
-                <!-- Warlock Exotic -->
-                <img src="img/warlock_gear/chest/voidfang_vestment/voidfang_vestmenticon.png" class="warlock_exotic_picture">
-                <img src="img/warlock_gear/chest/voidfang_vestment/voidfang_vestment.png" class="warlock_exotic">
+            <ul class='tabs'>
+                <li><a href='#exoticgun'> Exotic Gun </a></li>
+                <li><a href='#titanexotic'> Titan Exotic </a></li>
+                <li><a href='#hunterexotic'> Hunter Exotic </a></li>
+                <li><a href='#warlockexotic'> Warlock Exotic </a></li>
+            </ul>
+    
+            <div id='exoticgun'>
+                <h3> Exotic Gun </h3>
+                <br>
+                <!-- Exotic Gun --> 
+                
+                <img src="/img/guns/Snipers/No_land_beyond_icon1.jpg" width="80" height="100" alt="exoticgun" class="exoticicon" title="Exotic Gun">
+                
+                <!-- Exotic Gun Details --> 
+                
+                <img src="/img/guns/Snipers/no_land_beyond.png" width="200" height="100" alt="exoticgundetails" class="exoticdetails" title="Exotic Gun Details">
             </div>
-        </div>
-        
-      
-<!--
-      <div class="row">
-        <div class="large-6 columns">
-                            <img src="img/guns/Snipers/no_land_beyond.png" class="exotic_gun">
-
-        </div>
-          <div class="large-6 columns">
-                              <img src="img/guns/Snipers/no_land_beyond.png" class="exotic_gun">
+            <div id='titanexotic'>
+                <h3> Titan Exotic </h3>
+                <br>
+                <img src="/img/guns/Snipers/No_land_beyond_icon1.jpg" width="80" height="100" alt="exoticgun" class="exoticicon" title="Exotic Gun">
+                
+                <img src="/img/guns/Snipers/no_land_beyond.png" width="200" height="100" alt="exoticgundetails" class="exoticdetails" title="Exotic Gun Details">
 
               </div>
-      </div>
--->
-      </div>
+            <div id='hunterexotic'>
+                
+                <h3> Hunter Exotic </h3>
+                
+            <img src="/img/guns/Snipers/No_land_beyond_icon1.jpg" width="80" height="100" alt="exoticgun" class="exoticicon" title="Exotic Gun">
+
+                
+            <img src="/img/guns/Snipers/no_land_beyond.png" width="200" height="100" alt="exoticgundetails" class="exoticdetails" title="Exotic Gun Details">
+                
+                <br>
+          
+            </div>
+            <div id='warlockexotic'>
+                
+                <h3> Warlock Exotic </h3>
+                
+                <img src="/img/guns/Snipers/No_land_beyond_icon1.jpg" width="80" height="100" alt="exoticgun" class="exoticicon" title="Exotic Gun">
+
+                
+            <img src="/img/guns/Snipers/no_land_beyond.png" width="200" height="100" alt="exoticgundetails" class="exoticdetails" title="Exotic Gun Details">
+                <br>
+            </div>
         </div>
-      </section>
+    </div>
+</div>
+
+
 
       <section class="module parallax parallax-3">
         <div class="container">
+            <div class="large-12 columns">
+                <div class="instagramfeed">
             
-
+<iframe src="http://widget.websta.me/in/xuragentofthenine/?s=104&w=8&h=5&b=1&p=6.5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:60%; height: 600px; margin-left:22%;" ></iframe>
         </div>
+          </div>
+          </div>
       </section>
 
     <section class="module parallax parallax-2">
     <div class="container">
         <div class="row">
-                    <div class="large-4 columns">
-            <h3> Previous Weeks </h3>
+            <div class="large-12 columns">
+            <h3 id="previousweeksheader"> Previous Weeks </h3>
     <div id="previousweeks">
         <h3><a href="#">Week 1</a></h3>
         <div id="table">
@@ -340,9 +316,497 @@
         </tr>
     </table>
   </div>
+        <h3><a href="#">Week 5</a></h3>
+        <div>
+   <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+  </div>
+        
+         <h3><a href="#">Week 6</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+         <h3><a href="#">Week 7</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+        <h3><a href="#">Week 8</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+        <h3><a href="#">Week 9</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+        <h3><a href="#">Week 10</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+        <h3><a href="#">Week 11</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+        <h3><a href="#">Week 12</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 13</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 14</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 15</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 16</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 17</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 18</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 19</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 20</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 21</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 22</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 23</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 24</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 25</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+                <h3><a href="#">Week 26</a></h3>
+        <div>
+    <table class="previousweektable" id="">
+        <tr>
+        <th> Titan Exotic Armor </th>
+        <th> No Back-Up Plan </th>
+        </tr>
+        <tr>
+        <th> Hunter Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+        <tr>
+        <th> Warlock Exotic Armor </th>
+        <th> Gun Name </th>
+        </tr>
+               <tr>
+        <th> Exotic Weapon </th>
+        <th> Gun Name </th>
+        </tr>
+    </table>
+        </div>
+        
+        
 </div>
         </div>
-            </div>
+        
+        
+        
+        </div>
         </div>
 </section>
         
@@ -359,20 +823,31 @@
               </div>
       </div>
 -->
-      </div>
-        </div>
-      </section>
 
-      <section id="test_parallax" class="module parallax parallax-3" data-type="background" data-speed="10">
+
+<!--
+      <section id="parallaxscreen1" class="module parallax parallax-3" data-type="background" data-speed="10">
         <div class="container">
             <article> I am absolute positioned </article>
         </div>
       </section>
 
-      <section id="test_parallax1" class="module parallax parallax-3" data-type="background" data-speed="10">
+      <section id="parallaxscreen2" class="module parallax parallax-3" data-type="background" data-speed="10">
         <div class="container">
         </div>
       </section>
+-->
+
+<footer>
+    <div class="row">
+        <div class="large-4 columns">
+           <p> instagram </p>
+            
+        </div>
+    </div>
+
+
+</footer>
 
 
 	

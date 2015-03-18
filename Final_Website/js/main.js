@@ -1,51 +1,18 @@
-$(function ()
-{
-    var $preview = $("#preview");
-
-    $("ul#products a").hover(function ()
-    {
-        $preview.attr("src", $(this).attr("data-thumbnail-src"));
-    }, function ()
-    {
-        $preview.attr("src", "");
-    }
-
-)});
-
-
-$('a[href^="#"]').on('click', function(event) {
-
-    var target = $( $(this).attr('href') );
-
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-
+$(function() {
+    $( "#previousweeks" ).accordion();
 });
 
-$(document).ready(function() {
-  $('#nav').localScroll({duration:800});
+$(function() {
+    $('.banner').unslider();
 });
-
-$(document).ready(function() {
-    $('#nav').fullpage();
-});
-
-$('#previousweeks').accordion();
-
-
-
 
 /*=================== Projects Accordion ================	*/
     
-    $(function($) {
+    (function($) {
     
-  var allPanels = $('.projectsaccordion > dd').hide();
+  var allPanels = $('#previousweeks > dd').hide();
     
-  $('.projectsaccordion > dt > a').click(function() {
+  $('#previousweeks > dt > a').click(function() {
     allPanels.slideUp();
     $(this).parent().next().slideDown();
     return false;
